@@ -18,8 +18,11 @@ class NormalClass{
 @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Component
 class PrototypeClass{
+    
 
 }
+
+
 
 @Configuration
 @ComponentScan()
